@@ -1,0 +1,58 @@
+{
+
+    margin: 0;
+    
+    /*font-family: sans-serif;*/
+}
+
+
+
+body{
+
+
+    background: url("image-hero.jpg") no-repeat ;
+    width: 100vh;
+    height: auto;
+    
+    
+    
+}
+
+
+
+.header{
+    width: 100%;
+    image-rendering:url("logo.svg") ;
+    width: 20%;
+ .logo
+}
+
+  
+.header ul {
+
+    right:0px;
+    position: fixed;
+    
+}
+.header ul li {
+
+    list-style: none;
+    display: inline-block;
+}   
+
+.header ul li a{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    font-size: 10px;
+    font-family: 'Raleway',sans-serif;
+   
+    font-weight: 60;
+    padding: 20px;
+    transition: all ease 0.5s;
+
+}
+.header ul li a:hover{
+    background-color: grey;
+}
